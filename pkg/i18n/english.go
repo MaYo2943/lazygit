@@ -747,6 +747,9 @@ func addEnglish(i18nObject *i18n.Bundle) error {
 		}, &i18n.Message{
 			ID:    "CustomCommand",
 			Other: "Custom Command:",
+		}, &i18n.Message{
+			ID:    "resetTo",
+			Other: `reset to`,
 		},
 	)
 }
